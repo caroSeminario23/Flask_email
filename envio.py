@@ -21,3 +21,6 @@ def send_mail():
         return f"Ha ocurrido un error al enviar el correo electrónico: {str(e)}" # Devolver un mensaje de error
 
     return "Mensaje enviado" # Devolver un mensaje de confirmación
+
+if __name__ == '__main__': # Si el script se ejecuta directamente
+    app.run(host='0.0.0.0', debug=True, port=5000) # Ejecutar la aplicación en modo de depuración
