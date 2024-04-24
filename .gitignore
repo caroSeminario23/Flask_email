@@ -1,3 +1,4 @@
 # Esto permite obviar las carpetas y archivos que no queremos que se suban al repositorio
 venv/
 __pycache__/
+.DS_Store
