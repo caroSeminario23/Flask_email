@@ -1,7 +1,5 @@
-#from flask_mail import Mail
 from flask import render_template # Importar la función render_template para renderizar plantillas HTML
 from flask_mail import Message # Importar la clase Message para crear mensajes de correo electrónico
-import correo # Importar el módulo envio.py
 from correo import app # Importar la instancia de la aplicación Flask
 from correo import mail # Importar la instancia de Mail
 
@@ -10,9 +8,7 @@ def send_mail():
     msg = Message("GRUPO 4 - Prueba de envío de correo electrónico", # Asunto del mensaje
                   sender="isaproyectosfisi@gmail.com", # Remitente
                   recipients=["semivaldi@gmail.com"]) # Destinatario
-    #mail.send(msg)
     msg.body = "Este es un mensaje enviado por el GRUPO 4 - DSW" # Cuerpo del mensaje
-    #mail.send(msg) # Enviar el mensaje
 
     try: # Manejar errores
         mail.send(msg) # Enviar el mensaje
