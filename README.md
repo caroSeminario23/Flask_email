@@ -8,6 +8,10 @@ Este proyecto es una demostración de cómo usar Flask-Mail en una aplicación F
 
 ## Uso
 1. Primero, define tus usuario y contraseña como variables de entorno en tu terminal
+    - Si eres usuario Linux o Mac OS, emplea los siguientes comandos:
+    ![Captura de configuración](./imagenes/imagen_4.png)
+    - Si eres usuario Microsoft Windows, emplea los siguientes comandos:
+    ![Captura de configuración](./imagenes/imagen_5.png)
 2. Luego, para ejecutar la aplicación, usa el comando: `python envio.py`
 3. Finalmente, accede en tu navegador a la siguiente dirección: http://localhost:5000/send-mail/
 
