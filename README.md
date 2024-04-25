@@ -33,3 +33,15 @@ Este proyecto es una demostración de cómo usar Flask-Mail en una aplicación F
 - Envío de email por Python Shell
 ![Captura de ejecución](./imagenes/imagen_6.png)
 ![Captura de ejecución](./imagenes/imagen_7.png)
+
+- Registro de correos a diferentes destinatarios (desde EMAIL_SENDER)
+![Captura de ejecución](./imagenes/imagen_8.png)
+![Captura de ejecución](./imagenes/imagen_9.png)
+![Captura de ejecución](./imagenes/imagen_10.png)
+
+- Registro de correos al administrador (FLASKY ADMIN)
+![Captura de ejecución](./imagenes/imagen_11.png)
+![Captura de ejecución](./imagenes/imagen_12.png)
+![Captura de ejecución](./imagenes/imagen_13.png)
+
+
