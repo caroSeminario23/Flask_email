@@ -29,3 +29,7 @@ Este proyecto es una demostración de cómo usar Flask-Mail en una aplicación F
 
 - Bandeja de recibidos desde el correo destinatario
 ![Captura de ejecución](./imagenes/imagen_3.png)
+
+- Envío de email por Python Shell
+![Captura de ejecución](./imagenes/imagen_6.png)
+![Captura de ejecución](./imagenes/imagen_7.png)
